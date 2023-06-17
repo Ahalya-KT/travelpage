@@ -1,0 +1,112 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+ /* navbar section */
+
+#navbar{
+    background: #f9f9f9;
+   
+   
+}
+#logo{
+    font-size: 20px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1pxbla;
+    margin-bottom: 5px;
+}
+#logo span{
+    color:#068DA9;
+    font-size: 30px;
+}
+.navbar-toggler span{
+    color:#068DA9;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background: #068DA9;;
+    color: white;
+}
+.navbar form button{
+    background-color:#068DA9;;
+    color: white;
+    border: none;
+}
+
+/* home section */
+.home{
+    width:100%;
+    height: 100vh;
+   background-image: url("./img/travel-concept-with-baggage.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.home .content{
+    /* text-align: center; */
+    padding-top: 200px;
+    padding-left: 40px;
+}
+.home .content h2{
+    color:black;
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content p{
+    color:#068DA9;
+}
+
+.home .content button{
+    background-color:#068DA9;
+    border: none;
+    color:white;
+   margin-left: 100px ;
+}
+.ourservice{
+    text-align: center;
+    color: #068DA9;
+    padding: 60px;
+    font-weight: 600;
+}
+ .services {
+    text-align: center;
+    margin-top: -50px;
+    color: #967E76;
+    
+}
+
+
+.row i{
+    font-size: 30px;
+    margin-left: 170px;
+    color: #068DA9;
+}
+.row{
+    padding: 70px;
+    /* text-align: center; */
+    
+}
+.row h6{
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+.row p{
+    font-size: 15px;
+    width: 70%;
+    text-align: center;
+    margin-left: 50px;
+    color: #967E76;
+}
