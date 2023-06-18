@@ -13,7 +13,7 @@
     font-size: 20px;
     font-weight: 550;
     color: black;
-    text-shadow: 0px 1px 1pxbla;
+    text-shadow: 0px 1px 1px;
     margin-bottom: 5px;
 }
 #logo span{
@@ -60,9 +60,11 @@
 }
 .home .content h2{
     color:black;
-    font-size: 35px;
-    font-weight: 500;
-    text-shadow: 0px 1px 1px black;
+    font-size: 40px;
+    /* font-weight: 900; */
+    /* text-shadow: 0px 1px 1px black; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 .home .content p{
     color:#068DA9;
@@ -90,7 +92,8 @@
 
 .row i{
     font-size: 30px;
-    margin-left: 140px;
+    margin-left: 150px;
+   
     color: #068DA9;
 }
 .row{
@@ -113,6 +116,7 @@
 .travelling h2{
     color: #068DA9;
     font-weight: 800;
+    margin-left: 90px;
     
 }
 .click{
@@ -137,4 +141,11 @@
 }
 .set{
     margin-top: -100px;
+}
+.travelling{
+    text-align: center;
+}
+.travelling p{
+    text-align: center;
+    margin-left: 100px;
 }
