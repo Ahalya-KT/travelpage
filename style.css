@@ -45,7 +45,7 @@
 }
 
 /* home section */
-.home{
+.content{
     width:100%;
     height: 100vh;
    background-image: url("./img/travel-concept-with-baggage.jpg");
@@ -72,7 +72,7 @@
     background-color:#068DA9;
     border: none;
     color:white;
-   margin-left: 100px ;
+   /* margin-left: 100px ; */
 }
 .ourservice{
     text-align: center;
@@ -90,7 +90,7 @@
 
 .row i{
     font-size: 30px;
-    margin-left: 170px;
+    margin-left: 140px;
     color: #068DA9;
 }
 .row{
@@ -108,6 +108,33 @@
     width: 70%;
     text-align: center;
     margin-left: 50px;
-    color: #967E76;
+    color: #0a0909;
 }
- 
+.travelling h2{
+    color: #068DA9;
+    font-weight: 800;
+    
+}
+.click{
+    color: #068DA9;
+   padding-left: 70px;
+}
+
+.heading2{
+    color: #068DA9;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -70px;
+}
+.heading1{
+    text-align:center ;
+    color: #068DA9;
+    font-weight: 500;
+    padding: 80px;
+}
+.first{
+    margin-top: -50px;
+}
+.set{
+    margin-top: -100px;
+}
